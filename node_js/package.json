@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "anuj",
+  "type": "commonjs",
+  "main": "fs_lecture1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express.js": "^1.0.0"
+  }
+}

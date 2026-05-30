@@ -1,0 +1,16 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "anuj yadav",
+  "type": "commonjs",
+  "main": "express.js",
+  "scripts": {
+    "start": "it work",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express.js": "^1.0.0"
+  }
+}
