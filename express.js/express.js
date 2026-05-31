@@ -1,13 +1,17 @@
-const data = require("express");
+const data = require("express")
 
-const app = data();
+const ans = data();
+let value = false;
 
-app.get("/" , function(req , res){
-  res.send("VedamSOT")
+ans.use(function(req , res , next){
+  value = true;
+  if(value) console.log("it work")
+  else console.log("it not work")
+  next();
 })
 
-app.get("/portfolio" , function(req , res){
-  res.send("Anuj Yadav")
+ans.get("/" , function(req , res){
+  res.end("hii this is anuj")
 })
 
-app.listen(3000);
+ans.listen(3000);

@@ -94,3 +94,9 @@ User Request
  Route Handler
       ↓
  Response 
+
+ //ex
+ app.use(function(req , res , next){
+  console.log("middleware")
+next();
+})
